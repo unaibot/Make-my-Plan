@@ -1,0 +1,170 @@
+
+
+html, body {
+	background-image: url(../source/background.png);
+	font-family: 'Roboto', sans-serif;	
+    height: auto;
+    margin: 0px;
+    width: auto;
+}
+
+/*HEADER*/
+
+.header {
+	background: rgba(0,0,0,0.4);
+	box-shadow: 0px 2px 4px rgba(44,62,80,0.15);	
+	color: white;
+	display: inline-block;
+	height: 50px;	
+	text-align: center;	
+	width: 100%;
+	z-index: 5;
+}
+
+
+.button-start {
+	
+	height: 50px;
+	left:50%;
+	margin-top: -50px;
+    margin-left: -50px;	
+	position: absolute;
+	text-align: center;
+	top:50%;
+	width: 150px;	
+}
+
+.background {
+display: none;
+}
+
+
+.logo {
+	display: inline-block;	
+	height: 30px;	
+	margin: center;	
+	width: 70px;	
+}
+
+/*MAP*/
+
+.map-container {
+	background: rgb(0,0,0,0.35);
+	border-radius: 10px;
+	height: 380px;
+	margin: 0 auto;
+	margin-top: 15px;
+	text-align: center;
+	width: 95%;
+}
+
+
+#map{
+	border-radius: 10px;
+   
+    overflow: hidden;
+    padding-bottom: 350px;
+    padding-top: 30px;
+    position: relative;
+}
+
+/*GOOGLE*/
+
+
+
+/*PANEl*/
+
+.panel-container {
+	background: rgb(0,0,0,0.35);
+	border-radius: 0px 0px 15px 15px;	
+	height: 405px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;	
+	width: 40%;
+}
+
+/*panel-1*/
+
+.panel {
+	background: rgba(210,210,210,1);
+	border-radius: 0px 0px 15px 15px;
+	display: inline-block;
+	height: 400px;
+	margin: 0 auto;		
+	width: 98%;
+
+}
+
+
+.panel-header {
+	background: rgba(235,235,235,1);
+	display: inline-block;
+	height: 40px;
+	width: 100%;
+}
+
+
+.panel-header ul {	
+	margin: 0 auto;
+	list-style-type: none;		
+}
+
+.panel-header ul li {	
+	display: inline-block;	
+	margin: 0 auto;	
+}
+
+
+
+/*panel board*/
+
+
+#panel-board-list {
+	margin: 0 auto;	
+	padding: 20px;
+	width: 80%;
+
+}
+
+
+#panel-board-list-item {
+	background: white;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px 0px;
+	height: 50px;
+	list-style-type: none;	
+	margin: 0 auto;
+	padding: 10px;	
+	width: 80%;
+}
+
+#panel-board-list-item:hover {
+	background: rgba(0,0,0,0.2);
+}
+
+
+#panel-board-list-item li {	
+	display: inline-block;
+	margin: 0;	
+	padding: 5px; 
+	width: auto;
+}
+
+
+#address {
+	width: 70px;
+}
+
+/*FOOTER*/
+
+.footer {
+	background: rgba(0,0,0,0.4);
+	bottom: 0px;
+	color: white;
+	height: 35px;
+	margin: 0 auto;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}

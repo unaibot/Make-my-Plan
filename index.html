@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DatePlan</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=">
+    </script>
+	
+
+</head>
+
+
+<body>
+
+	<div class="header">
+			<h3 class="logo">DatePlan</h3>
+	</div>
+
+	<div class="button-start">
+		<input type="button" value="MakeMyPlan!" onclick="displayApp()"></input>
+	</div>
+
+	<div class="background">
+
+			
+
+		<div class="map-container">			 
+			<div id="map"></div>			
+		</div>
+
+
+		<div class="panel-container">			
+			<div class="panel">
+				<div class="panel-header">
+					<ul>
+						<li><h4>Board Panel</h4></li>
+						<li><input id="buttonPanel" type="button" onclick="createTodo()" value="NewPanel!"></li>
+					</ul>
+				</div>
+				<div class="panel-board">
+					<ul id="panel-board-list"></ul>
+				</div>
+			</div>
+	    </div>	
+		
+	</div>
+	<div class="footer">
+		<h3 class="logo">Footer</h3>
+	</div>
+
+	
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+
+
